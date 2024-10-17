@@ -1,11 +1,11 @@
-export default App
-import './App.css'
-import { AppRouter } from './routers'
-
-
-
+import { AppRouter } from "./Routers"
+import "./App.css"
 function App() {
-  return (
- <AppRouter/>
-  );
+    return (
+        <>
+            <AppRouter/>
+        </>
+    )
 }
+
+export default App
